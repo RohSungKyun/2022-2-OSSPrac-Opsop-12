@@ -12,12 +12,7 @@ def result():
       result['Name'] = request.form.get('Name')
       
       # 학번
-<<<<<<< HEAD:TeamHw_3_Code/main.py
-      result['Gender'] = request.form.get('Gender')# 성별을 get을 통해 flask에서 gender데이터를 받아옵니다.
-      result['Major']=request.form.get('Major') # 학과
-=======
       result['Number']=request.form.get('Number')
->>>>>>> 883ced13c4a9a8c30dd5c5b47f3311a36ca7dcf0:app/main.py
 
       # 성별
       result['Gender'] = request.form.get('Gender')

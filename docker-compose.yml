@@ -1,0 +1,7 @@
+version : '3.0'
+services:
+  test:
+    image: opsop:3.0
+    build: .
+    ports:
+      - "80:80"
